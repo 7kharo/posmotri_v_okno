@@ -216,6 +216,17 @@ button {
   width: 100%;
 }
 
+/*interactive*/
+
 .content__card-link:focus {
   outline: none;
+}
+
+.search-form__checkbox:checked + .search-form__pseudo-checkbox {
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  outline: 1px solid white;
+  outline-offset: -1px;
 }
