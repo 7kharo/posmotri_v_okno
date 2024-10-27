@@ -38,6 +38,8 @@ ol {
   list-style: none;
 }
 
+
+/*layout*/
 .content {
   margin: auto;
   display: flex;
