@@ -87,6 +87,7 @@ ol {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .content__video-card {
@@ -97,7 +98,6 @@ ol {
 .content__video-card-thumbnail {
   width: 200px;
   height: 100px;
-  object-fit: cover;
   align-self: end;
 }
 
