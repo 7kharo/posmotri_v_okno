@@ -158,9 +158,6 @@ ol {
 }
 
 .content__video-card-description {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
   line-height: 90%;
   font-weight: 400;
 }
