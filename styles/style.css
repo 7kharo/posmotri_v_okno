@@ -68,13 +68,16 @@ ol {
   flex-direction: column;
   inline-size: 100%;
   block-size: 100%;
-  min-width: 420px;
 }
 
 .content__list {
   position: relative;
   height: 298px;
   overflow-y: auto;
+}
+
+.content__list::-webkit-scrollbar {
+  display: none;
 }
 
 .result__video-container {
@@ -93,7 +96,6 @@ ol {
 .content__video-card {
   display: flex;
   justify-content: start;
-  
   padding: 2px;
 }
 
@@ -104,8 +106,6 @@ ol {
 .content__list-item:last-child {
   margin-bottom: 0;
 }
-
-
 
 .content__video-card-thumbnail {
   width: 194px;
@@ -152,6 +152,9 @@ ol {
   font-weight: 700;
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .content__video-card-description {
