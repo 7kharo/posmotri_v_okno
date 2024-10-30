@@ -17,7 +17,6 @@ html {
   font-size: 18px;
   background-color: #1b1919;
   margin: auto;
-  padding-left: 22px;
 }
 
 h1,
@@ -42,6 +41,7 @@ ol {
 
 /*layout*/
 .content {
+  margin: auto;
   align-self: center;
   display: flex;
   align-items: end;
@@ -68,6 +68,7 @@ ol {
   flex-direction: column;
   inline-size: 100%;
   block-size: 100%;
+  width: 411px;
 }
 
 .content__list {
@@ -76,9 +77,9 @@ ol {
   overflow-y: auto;
 }
 
-.content__list::-webkit-scrollbar {
-  display: none;
-}
+/*.content__list::-webkit-scrollbar {
+  width: 0;
+}*/
 
 .result__video-container {
   position: relative;
@@ -108,7 +109,7 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  width: 194px;
+  width: 194px; 
   height: 103px;
   align-self: end;
   object-fit: cover;
