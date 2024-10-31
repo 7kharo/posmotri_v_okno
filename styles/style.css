@@ -10,7 +10,6 @@ html {
 
 .page {
   display: flex;
-  /*inline-size: 1200px;*/
   block-size: 100%;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -42,12 +41,11 @@ ol {
 
 
 /*layout*/
+
 .content {
-  /*margin: auto;*/
   /*align-self: center;*/
   display: flex;
   align-items: end;
-  /*justify-content: center;*/
   gap: 30px;
   max-width: 1140px;
   width: 100%;
