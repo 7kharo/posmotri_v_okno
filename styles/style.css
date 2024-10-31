@@ -10,13 +10,15 @@ html {
 
 .page {
   display: flex;
-  inline-size: 1200px;
+  /*inline-size: 1200px;*/
   block-size: 100%;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  margin: auto;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -41,12 +43,14 @@ ol {
 
 /*layout*/
 .content {
-  margin: auto;
-  align-self: center;
+  /*margin: auto;*/
+  /*align-self: center;*/
   display: flex;
   align-items: end;
-  justify-content: center;
+  /*justify-content: center;*/
   gap: 30px;
+  max-width: 1140px;
+  width: 100%;
 }
 
 .result {
@@ -66,9 +70,9 @@ ol {
   display: flex;
   gap: 22px;
   flex-direction: column;
-  inline-size: 100%;
+  /*inline-size: auto;*/
   block-size: 100%;
-  width: 415px;
+  width: 100%;
 }
 
 .content__list {
